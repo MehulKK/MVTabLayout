@@ -26,6 +26,7 @@ public class MVTabLayout extends RelativeLayout implements View.OnClickListener 
     private int iconColor;
     private List<MVMaterialTab> tabs;
     private boolean hasIcons;
+    private boolean mHasCircleTabIndicator;
     private boolean isTablet;
     private float density;
     private boolean scrollable;
@@ -61,6 +62,7 @@ public class MVTabLayout extends RelativeLayout implements View.OnClickListener 
             try {
                 // custom attributes
                 hasIcons = a.getBoolean(R.styleable.MaterialTabHost_hasIcons, false);
+                mHasCircleTabIndicator = a.getBoolean(R.styleable.MaterialTabHost_hasCircleTabIndicator, false);
 
                 primaryColor = a.getColor(R.styleable.MaterialTabHost_materialTabsPrimaryColor, Color.parseColor("#009688"));
                 accentColor = a.getColor(R.styleable.MaterialTabHost_accentColor,Color.parseColor("#00b0ff"));
@@ -143,7 +145,7 @@ public class MVTabLayout extends RelativeLayout implements View.OnClickListener 
     }
 
     public MVMaterialTab newTab() {
-        return new MVMaterialTab(this.getContext(),hasIcons);
+        return new MVMaterialTab(this.getContext(),hasIcons, mHasCircleTabIndicator);
     }
 
     public void setSelectedNavigationItem(int position) {

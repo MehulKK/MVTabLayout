@@ -5,10 +5,12 @@
 
         <!-- Custom attributes -->
         <attr name="hasIcons" format="boolean" />
+        <attr name="hasCircleTabIndicator" format="boolean" />
         <attr name="materialTabsPrimaryColor" format="color" />
         <attr name="accentColor" format="color" />
         <attr name="iconColor" format="color" />
         <attr name="textColor" format="color"  />
+
 
     </declare-styleable>
 

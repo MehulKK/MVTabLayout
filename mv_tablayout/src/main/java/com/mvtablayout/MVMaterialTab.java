@@ -33,6 +33,7 @@ public class MVMaterialTab implements View.OnTouchListener{
     private int mPosition;
     private float mDensity;
     private boolean mHasIcon;
+    private boolean mHasCircleTabIndicator;
     private boolean mActive;
 
     private Context mContext;
@@ -46,9 +47,10 @@ public class MVMaterialTab implements View.OnTouchListener{
 
     private MVMaterialTabListener mvMaterialTabListener;
 
-    public MVMaterialTab(Context context, boolean hasIcon) {
+    public MVMaterialTab(Context context, boolean hasIcon, boolean mHasCircleTabIndicator) {
         this.mContext = context;
         this.mHasIcon = hasIcon;
+        this.mHasCircleTabIndicator = mHasCircleTabIndicator;
         init();
 
     }
