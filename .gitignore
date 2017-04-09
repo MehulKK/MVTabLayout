@@ -8,6 +8,21 @@
 # Java class files
 *.class
 
+*.iml
+.gradle
+*.bat
+gradlew
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/.idea
+/captures
+.externalNativeBuild
+/src/androidTest/
+/src/test/
+
 # Generated files
 bin/
 gen/
