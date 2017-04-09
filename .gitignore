@@ -18,6 +18,7 @@ gradlew
 .DS_Store
 /build
 /.idea
+*.idea
 /captures
 .externalNativeBuild
 /src/androidTest/
