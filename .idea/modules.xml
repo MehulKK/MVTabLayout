@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MVTabLayoutSample.iml" filepath="$PROJECT_DIR$/MVTabLayoutSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVTabLayout.iml" filepath="$PROJECT_DIR$/MVTabLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mv_tablayout/mv_tablayout.iml" filepath="$PROJECT_DIR$/mv_tablayout/mv_tablayout.iml" />
     </modules>

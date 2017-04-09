@@ -5,7 +5,7 @@ import android.os.Build;
 import android.view.View;
 
 /**
- * Created by MehulKabaria on 06-Apr-17.
+ * Created by Mehul on 06-Apr-17.
  */
 
 public class Utils {
