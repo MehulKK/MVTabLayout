@@ -1,5 +1,7 @@
 # MVTabLayout
 
+You can customised your TabLayout like following.
+
 Layouts 1
 ![alt text](https://github.com/MehulKK/MVTabLayout/blob/master/1.png)
 
